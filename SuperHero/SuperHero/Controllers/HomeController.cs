@@ -10,7 +10,7 @@ namespace SuperHero.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Heroes");
         }
 
         public ActionResult About()
